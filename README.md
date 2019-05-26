@@ -1,15 +1,16 @@
 # GeneralNotes
 
 # Starting a Company
-* Y-Combinator Lectures
-* Business Model Canvas
+* Y-Combinator startup school : https://www.youtube.com/playlist?list=PLQ-uHSnFig5NVnJ_cLWM7dLuMQRDeekoX
+* Business Model Canvas : https://en.wikipedia.org/wiki/Business_Model_Canvas 
 * Simon Wardley & Wardley Maps
 * Ben Hall
+  * katacoda https://www.katacoda.com/
 
 # Containerization
 * Docker
-* Alternatives to docker
-* Docker 
+* Alternative to docker KKT
+* Docker Swarm (docker compose)
 
 # Kubernetes
 * Overview
@@ -20,10 +21,18 @@
   * popeye https://github.com/derailed/popeye config linting 
   * stern https://github.com/wercker/stern log management
   * k3s https://k3s.io/ kubernetes for IoT
-  * Docker for Desktop ( now contains kubernetes) 
+  * Docker for Desktop ( now contains kubernetes)
+  * Helm https://helm.sh package management for kubernetes
+  * Draft https://draft.sh make k8s projects
+  * Kompose https://kompose.io use docker-compose with kubernetes
 * Orchestration
 * ServiceMesh
+  * Istio
+  * Envoy
   * Knative
+  
+  https://dzone.com/articles/50-useful-docker-tools
+  https://dzone.com/articles/50-useful-kubernetes-tools
 
 # Development
 * Keep the feedback loop as small as possible
@@ -50,6 +59,10 @@
   * fits into the the CQRS readmodel update pattern.
 * Eventsourcing
 
+# Workflow
+* gitops
+* gitlab
+
 # Bigscale 
 * Daniel Lemire
 * Inverted Indices for Scale
@@ -73,7 +86,7 @@
   https://metron.apache.org/ 
   
 # Web Development
-* JAM ( Javascript Api's 
+* JAM Stack https://jamstack.org/ JavaScript, reusable APIs, and prebuilt Markup 
 
 # Languages
 * Use better languages 'functional first languages'
